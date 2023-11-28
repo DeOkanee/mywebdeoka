@@ -1096,6 +1096,9 @@ strong {
     padding-top: 200px;
     padding-bottom: 400px;
   }
+  .hero .col-lg-5 img{
+    margin-left: 9%;
+  }
 
   .hero-text {
     top: 0;
