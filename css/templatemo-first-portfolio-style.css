@@ -1160,6 +1160,9 @@ strong {
     margin-right: 12px;
     margin-left: 12px;
   }
+  .contact-info p{
+    margin-top: 22px;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -1208,6 +1211,8 @@ strong {
     width: 75%;
     height: auto;
   }
-
+  .contact-info p{
+    margin-top: 20px;
+  }
 }
 
