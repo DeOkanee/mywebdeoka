@@ -791,18 +791,16 @@ strong {
   background: var(--white-color);
   border-top-right-radius: var(--border-radius-small);
   border-bottom-right-radius: var(--border-radius-small);
-  padding: 60px 30px 30px 30px;
-  height: 100%;
+  padding: 30px 30px 30px 30px;
+  height: 82%;
 }
+
 
 .contact-info-border-start {
   border-right: 1px solid var(--border-color);
   border-radius: var(--border-radius-small) 0 0 var(--border-radius-small);
 }
 
-.contact-form {
-  margin-left: 10px;
-}
 
 
 /*---------------------------------------
@@ -1140,7 +1138,6 @@ strong {
 
   .contact-info {
     border-radius: 0 0 var(--border-radius-small) var(--border-radius-small);
-    padding: 40px 30px;
   }
 
   .contact-info-border-start {
@@ -1210,6 +1207,11 @@ strong {
     border-radius: 50%;
     width: 75%;
     height: auto;
+  }
+  .contact-info{
+    padding: 30px 30px 30px 30px;
+    height: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.274);
   }
   .contact-info p{
     margin-top: 20px;
