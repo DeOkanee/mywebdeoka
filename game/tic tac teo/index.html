@@ -1,0 +1,58 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/stlye.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="assets/prof.png" />
+    <script src="assets/jj.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"
+    />
+    <title>Tic-Tac-Teo</title>
+  </head>
+  <body>
+    <main class="background">
+      <section class="title">
+        <h1>Tic Tac Teo</h1>
+      </section>
+      <section class="display">
+        Player <span class="display-player playerX">X</span>'s turn
+      </section>
+      <section class="container">
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+      </section>
+      <section class="display announcer hide"></section>
+      <section class="controls">
+        <button id="reset">Reset</button>
+      </section>
+    </main>
+    x
+    <script src="assets/jj.js"></script>
+    <script>
+      $(document).ready(function () {
+        toastr.options = {
+          closeButton: true,
+          positionClass: "toast-top-right",
+          timeOut: "3000",
+        };
+
+        toastr.info("Game ini dimainkan oleh 2 orang!");
+      });
+    </script>
+  </body>
+</html>
