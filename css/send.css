@@ -29,7 +29,7 @@
     resize: vertical; /* Allow vertical resizing of the textarea */
   }
   
-  button {
+  #kirim{
     padding: 12px;
     background-color: #4caf50;
     color: #fff;
@@ -38,8 +38,8 @@
     cursor: pointer;
   }
   
-  button:hover {
-    background-color: #45a049;
+  #kirim:hover {
+    background-color: #18751c;
   }
   
   @media screen and (max-width: 600px) {
