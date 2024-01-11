@@ -1,0 +1,67 @@
+.contact-form {
+    max-width: 500px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    resize: vertical; /* Allow vertical resizing of the textarea */
+  }
+  
+  button {
+    padding: 12px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .contact-form {
+      margin: 20px;
+    }
+    #laptop{
+        display: none;
+    }
+  }
+
+  /* Your existing styles go here */
+
+@media screen and (min-width: 601px) {
+    /* Styles for screens wider than 600px (Tablet, Laptop, Desktop) */
+    #mobile {
+      display: none; /* Hide the mobile form */
+    }
+    .contact-form {
+        max-width: 400px;
+        margin: 10px auto;
+    }
+  }
+  
+  
